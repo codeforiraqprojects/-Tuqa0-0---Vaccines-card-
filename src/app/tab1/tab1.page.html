@@ -1,0 +1,52 @@
+<!--<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab One
+    </ion-title>
+  </ion-toolbar>
+</ion-header>-->
+
+<ion-content padding>
+<br><br><br>
+<ion-card>
+  <ion-card-content dir="rtl"> 
+ <div padding >
+    <h1 style="color: #0077C2; padding: 5px; font-weight: bold; margin-bottom: 12px; font-size: 20pt; text-align: center;">اضافة طفل</h1>
+
+	
+<br><br>
+    <ion-item class="transparentWhite">
+      <ion-icon item-left md="md-add" ios="ios-add" style=" color:#0077C2"></ion-icon>
+      <ion-input [(ngModel)]='data.name' placeholder=" اسم الطفل " type='text'></ion-input>
+    </ion-item>
+
+    
+    <br>
+    
+   <ion-item class="transparentWhite">
+      <ion-icon item-left md="md-calendar" ios="ios-calendar"  style=" color:#0077C2"></ion-icon>
+      <ion-datetime  [(ngModel)]='data.age' placeholder="تاريخ الولادة" display-format="DD/MM/YYYY"></ion-datetime > 
+    </ion-item>
+
+
+<!--
+<ion-item class="transparentWhite">
+      <ion-icon item-left md="md-calendar" ios="ios-calendar"  style=" color:#0077C2"></ion-icon>
+     <ion-input [(ngModel)]='data.date' placeholder="first vaccion" type="date"></ion-input> 
+    </ion-item>
+<br>
+
+(click)="addbaby(data)"
+(click)="chick(data)"
+-->
+<br>
+<button ion-button block class="button button3" (click)="co(data)" >اضافة</button>
+
+
+</div>
+
+  </ion-card-content>
+</ion-card> 
+
+
+</ion-content>

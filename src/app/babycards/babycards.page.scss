@@ -1,0 +1,38 @@
+ul.demo {
+  list-style-type: none;
+   padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+}
+
+
+.daletbutton {
+  background-color: #0077C2;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+ion-card{
+--background: #fff
+
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: right;
+}
